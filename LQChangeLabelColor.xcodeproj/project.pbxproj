@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09367E7A1F56806100B6CE2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09367E791F56806100B6CE2A /* main.m */; };
+		09367E7D1F56806100B6CE2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09367E7C1F56806100B6CE2A /* AppDelegate.m */; };
+		09367E801F56806100B6CE2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09367E7F1F56806100B6CE2A /* ViewController.m */; };
+		09367E831F56806100B6CE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09367E811F56806100B6CE2A /* Main.storyboard */; };
+		09367E851F56806100B6CE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09367E841F56806100B6CE2A /* Assets.xcassets */; };
+		09367E881F56806100B6CE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09367E861F56806100B6CE2A /* LaunchScreen.storyboard */; };
+		09367E931F56806100B6CE2A /* LQChangeLabelColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09367E921F56806100B6CE2A /* LQChangeLabelColorTests.m */; };
+		09367E9E1F56806100B6CE2A /* LQChangeLabelColorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09367E9D1F56806100B6CE2A /* LQChangeLabelColorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09367E8F1F56806100B6CE2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09367E6D1F56806100B6CE2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09367E741F56806100B6CE2A;
+			remoteInfo = LQChangeLabelColor;
+		};
+		09367E9A1F56806100B6CE2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09367E6D1F56806100B6CE2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09367E741F56806100B6CE2A;
+			remoteInfo = LQChangeLabelColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09367E751F56806100B6CE2A /* LQChangeLabelColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQChangeLabelColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09367E791F56806100B6CE2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09367E7B1F56806100B6CE2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09367E7C1F56806100B6CE2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09367E7E1F56806100B6CE2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09367E7F1F56806100B6CE2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09367E821F56806100B6CE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09367E841F56806100B6CE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09367E871F56806100B6CE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09367E891F56806100B6CE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09367E8E1F56806100B6CE2A /* LQChangeLabelColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQChangeLabelColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09367E921F56806100B6CE2A /* LQChangeLabelColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQChangeLabelColorTests.m; sourceTree = "<group>"; };
+		09367E941F56806100B6CE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09367E991F56806100B6CE2A /* LQChangeLabelColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQChangeLabelColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09367E9D1F56806100B6CE2A /* LQChangeLabelColorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQChangeLabelColorUITests.m; sourceTree = "<group>"; };
+		09367E9F1F56806100B6CE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09367E721F56806100B6CE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09367E8B1F56806100B6CE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09367E961F56806100B6CE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09367E6C1F56806100B6CE2A = {
+			isa = PBXGroup;
+			children = (
+				09367E771F56806100B6CE2A /* LQChangeLabelColor */,
+				09367E911F56806100B6CE2A /* LQChangeLabelColorTests */,
+				09367E9C1F56806100B6CE2A /* LQChangeLabelColorUITests */,
+				09367E761F56806100B6CE2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09367E761F56806100B6CE2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09367E751F56806100B6CE2A /* LQChangeLabelColor.app */,
+				09367E8E1F56806100B6CE2A /* LQChangeLabelColorTests.xctest */,
+				09367E991F56806100B6CE2A /* LQChangeLabelColorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09367E771F56806100B6CE2A /* LQChangeLabelColor */ = {
+			isa = PBXGroup;
+			children = (
+				09367E7B1F56806100B6CE2A /* AppDelegate.h */,
+				09367E7C1F56806100B6CE2A /* AppDelegate.m */,
+				09367E7E1F56806100B6CE2A /* ViewController.h */,
+				09367E7F1F56806100B6CE2A /* ViewController.m */,
+				09367E811F56806100B6CE2A /* Main.storyboard */,
+				09367E841F56806100B6CE2A /* Assets.xcassets */,
+				09367E861F56806100B6CE2A /* LaunchScreen.storyboard */,
+				09367E891F56806100B6CE2A /* Info.plist */,
+				09367E781F56806100B6CE2A /* Supporting Files */,
+			);
+			path = LQChangeLabelColor;
+			sourceTree = "<group>";
+		};
+		09367E781F56806100B6CE2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09367E791F56806100B6CE2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09367E911F56806100B6CE2A /* LQChangeLabelColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				09367E921F56806100B6CE2A /* LQChangeLabelColorTests.m */,
+				09367E941F56806100B6CE2A /* Info.plist */,
+			);
+			path = LQChangeLabelColorTests;
+			sourceTree = "<group>";
+		};
+		09367E9C1F56806100B6CE2A /* LQChangeLabelColorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09367E9D1F56806100B6CE2A /* LQChangeLabelColorUITests.m */,
+				09367E9F1F56806100B6CE2A /* Info.plist */,
+			);
+			path = LQChangeLabelColorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09367E741F56806100B6CE2A /* LQChangeLabelColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09367EA21F56806100B6CE2A /* Build configuration list for PBXNativeTarget "LQChangeLabelColor" */;
+			buildPhases = (
+				09367E711F56806100B6CE2A /* Sources */,
+				09367E721F56806100B6CE2A /* Frameworks */,
+				09367E731F56806100B6CE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQChangeLabelColor;
+			productName = LQChangeLabelColor;
+			productReference = 09367E751F56806100B6CE2A /* LQChangeLabelColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09367E8D1F56806100B6CE2A /* LQChangeLabelColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09367EA51F56806100B6CE2A /* Build configuration list for PBXNativeTarget "LQChangeLabelColorTests" */;
+			buildPhases = (
+				09367E8A1F56806100B6CE2A /* Sources */,
+				09367E8B1F56806100B6CE2A /* Frameworks */,
+				09367E8C1F56806100B6CE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09367E901F56806100B6CE2A /* PBXTargetDependency */,
+			);
+			name = LQChangeLabelColorTests;
+			productName = LQChangeLabelColorTests;
+			productReference = 09367E8E1F56806100B6CE2A /* LQChangeLabelColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09367E981F56806100B6CE2A /* LQChangeLabelColorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09367EA81F56806100B6CE2A /* Build configuration list for PBXNativeTarget "LQChangeLabelColorUITests" */;
+			buildPhases = (
+				09367E951F56806100B6CE2A /* Sources */,
+				09367E961F56806100B6CE2A /* Frameworks */,
+				09367E971F56806100B6CE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09367E9B1F56806100B6CE2A /* PBXTargetDependency */,
+			);
+			name = LQChangeLabelColorUITests;
+			productName = LQChangeLabelColorUITests;
+			productReference = 09367E991F56806100B6CE2A /* LQChangeLabelColorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09367E6D1F56806100B6CE2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = LQ;
+				TargetAttributes = {
+					09367E741F56806100B6CE2A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					09367E8D1F56806100B6CE2A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09367E741F56806100B6CE2A;
+					};
+					09367E981F56806100B6CE2A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09367E741F56806100B6CE2A;
+					};
+				};
+			};
+			buildConfigurationList = 09367E701F56806100B6CE2A /* Build configuration list for PBXProject "LQChangeLabelColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09367E6C1F56806100B6CE2A;
+			productRefGroup = 09367E761F56806100B6CE2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09367E741F56806100B6CE2A /* LQChangeLabelColor */,
+				09367E8D1F56806100B6CE2A /* LQChangeLabelColorTests */,
+				09367E981F56806100B6CE2A /* LQChangeLabelColorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09367E731F56806100B6CE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09367E881F56806100B6CE2A /* LaunchScreen.storyboard in Resources */,
+				09367E851F56806100B6CE2A /* Assets.xcassets in Resources */,
+				09367E831F56806100B6CE2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09367E8C1F56806100B6CE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09367E971F56806100B6CE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09367E711F56806100B6CE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09367E801F56806100B6CE2A /* ViewController.m in Sources */,
+				09367E7D1F56806100B6CE2A /* AppDelegate.m in Sources */,
+				09367E7A1F56806100B6CE2A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09367E8A1F56806100B6CE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09367E931F56806100B6CE2A /* LQChangeLabelColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09367E951F56806100B6CE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09367E9E1F56806100B6CE2A /* LQChangeLabelColorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09367E901F56806100B6CE2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09367E741F56806100B6CE2A /* LQChangeLabelColor */;
+			targetProxy = 09367E8F1F56806100B6CE2A /* PBXContainerItemProxy */;
+		};
+		09367E9B1F56806100B6CE2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09367E741F56806100B6CE2A /* LQChangeLabelColor */;
+			targetProxy = 09367E9A1F56806100B6CE2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09367E811F56806100B6CE2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09367E821F56806100B6CE2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09367E861F56806100B6CE2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09367E871F56806100B6CE2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09367EA01F56806100B6CE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09367EA11F56806100B6CE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09367EA31F56806100B6CE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LQChangeLabelColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LQChangeLabelColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09367EA41F56806100B6CE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LQChangeLabelColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LQChangeLabelColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09367EA61F56806100B6CE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LQChangeLabelColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LQChangeLabelColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQChangeLabelColor.app/LQChangeLabelColor";
+			};
+			name = Debug;
+		};
+		09367EA71F56806100B6CE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LQChangeLabelColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LQChangeLabelColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQChangeLabelColor.app/LQChangeLabelColor";
+			};
+			name = Release;
+		};
+		09367EA91F56806100B6CE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LQChangeLabelColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LQChangeLabelColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LQChangeLabelColor;
+			};
+			name = Debug;
+		};
+		09367EAA1F56806100B6CE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LQChangeLabelColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LQ.LQChangeLabelColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LQChangeLabelColor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09367E701F56806100B6CE2A /* Build configuration list for PBXProject "LQChangeLabelColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09367EA01F56806100B6CE2A /* Debug */,
+				09367EA11F56806100B6CE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09367EA21F56806100B6CE2A /* Build configuration list for PBXNativeTarget "LQChangeLabelColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09367EA31F56806100B6CE2A /* Debug */,
+				09367EA41F56806100B6CE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09367EA51F56806100B6CE2A /* Build configuration list for PBXNativeTarget "LQChangeLabelColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09367EA61F56806100B6CE2A /* Debug */,
+				09367EA71F56806100B6CE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09367EA81F56806100B6CE2A /* Build configuration list for PBXNativeTarget "LQChangeLabelColorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09367EA91F56806100B6CE2A /* Debug */,
+				09367EAA1F56806100B6CE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09367E6D1F56806100B6CE2A /* Project object */;
+}
